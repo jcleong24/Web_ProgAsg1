@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Resume</title>
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: "Raleway", sans-serif;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body class="w3-light-grey">
+    <div class="w3-content" style="max-width:1400px"></div>
+
+    <header class="w3-container w3-center w3-padding-32">
+        <h1><b>MY RESUME</b></h1>
+        <p>Welcome to my page of <span class="w3-tag">Resume</span></p>
+    </header>
+    <div class="w3-bar w3-black">
+        <a href="#profile" class="w3-bar-item w3-button w3-hide-small w3-right">Profile</a>
+        <a href="#education" class="w3-bar-item w3-button w3-hide-small w3-right">Education</a>
+        <a href="#skills" class="w3-bar-item w3-button w3-hide-small w3-right">Skills</a>
+        <a href="#experiences" class="w3-bar-item w3-button w3-hide-small w3-right">Experiences</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-right">Contact</a>
+        <a href="javascript:void(0)" onclick="sideMenu()"
+            class="w3-bar-item w3-button w3-right w3-hide-medium w3-hide-large">&#9776</a>
+    </div>
+    <div id="idsidebar" class="w3-bar-block w3-light-grey w3-hide-large w3-hide w3-hide-medium">
+        <a href="#profile" class="w3-bar-item w3-button w3-left">Profile</a>
+        <a href="#education" class="w3-bar-item w3-button w3-left">Education</a>
+        <a href="#skills" class="w3-bar-item w3-button w3-left">Skills</a>
+        <a href="#experiences" class="w3-bar-item w3-button w3-left">Experiences</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-left">Contact</a>
+    </div>
+
+    <div id="profile" class="w3-container w3-row w3-light-grey w3-padding-32">
+        <div class="w3-container w3-third w3-center">
+            <img src="leong.png" class="w3-border w3-padding" style="height:200px; background-size: cover">
+            <h2>My Profile</h2>
+        </div>
+        <div class="w3-container w3-twothird">
+                <h2>Employment History</h2>
+                <b>Sales Associate at Coffee Grinders, Malacca</b>
+                <li>Greeted customers and assited them with purchasing products.</li>
+                <li>Help customers grind coffee beans and sample new products.</li>
+                <li>Maintained a clean and welcoming store environment</li>
+                <li>Handle financial transactions.</li>
+
+                <b>Volunteer, Cascades Humane Society</b>
+                <li>Performed various administrative and clerical tasks as needed.</li>
+                <li>Served as a support for the entire office staff</li>
+                <li>Monitored & observed animals for signs of illness & reported symptoms to superior</li>
+                <li>Created online pet profiles website for potential adopters </li>
+        </div>
+
+
+        <div id="education" class="w3-container w3-row w3-padding-32"></div>
+
+        <div class="w3-container w3-twothird">
+
+            <ul class="w3-ul w3-border">
+                <li>
+                    <h2>Previous Education</h2>
+                </li>
+                <li><b>Undergraduate</b><br>2019-2022</br>Bachelor of degree in Information Technology</li>
+                <li><b>Undergraduate</b><br>2020-2022</br>Majoring in Software Engineering</li>
+            </ul>
+        </div>
+        <div class="w3-container w3-third w3-center" style="font-size: 128px">
+            <img src="background_tree.jpg" alt="Tree" style="width:90%; height:250px">
+        </div>
+    </div>
+
+
+    <div id="skills" class="w3-container w3-row w3-light-grey w3-padding-32">
+        <hr style="height:2px;border-width:80%;color:black;background-color:black">
+        <div class="w3-container w3-third white-space: normal">
+            <h2>My Skills</h2>
+            <img src="programmer.jpeg" style="height:260px">
+        </div>
+
+        <div class="w3-container w3-twothird">
+            <h3 class="w3-padding-16 w3-text-light-grey">Skills</h3>
+
+            <p class="w3-wide">Programming</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey white-space: normal" style="height:28px;width:95%; display: inline-block">
+                </div>
+            </div>
+            <p class="w3-wide">Web Design</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey white-space: normal" style="height:28px;width:85%; display: inline-block">
+                </div>
+            </div>
+            <p class="w3-wide">Troubleshooting</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey white-space: normal" style="height:28px;width:80%; display: inline-block">
+                </div>
+            </div><br>
+        </div>
+    </div>
+
+    <div id="experiences" class="w3-container w3-row w3-padding-32">
+        <hr style="height:2px;border-width:80%;color:black;background-color:black">
+        <div class="w3-container w3-third w3-center">
+            <ul class="w3-ul w3-border">
+                <h2>My Experience</h2>
+            </ul>
+        </div>
+
+        <div class="w3-container w3-twothird w3-center">
+            <table>
+                <tr>
+                    <th>Areas of Expertise</th>
+                    <th>Domain knowledge</th>
+                    <th>Experience</th>
+                </tr>
+                <tr>
+                    <td>Complex Problem Solving</td>
+                    <td>Java</td>
+                    <td>Cloud Management</td>
+                </tr>
+                <tr>
+                    <td>Project Management</td>
+                    <td>HTML</td>
+                    <td>Agile Development</td>
+                </tr>
+                <tr>
+                    <td>Team Collaboration & Leadership</td>
+                    <td>CSS</td>
+                    <td>Debugger 5000 Use</td>
+                </tr>
+                <tr>
+                    <td>Logi & Reasoning</td>
+                    <td>Javascript</td>
+                    <td>Data Synchronization</td>
+                </tr>
+                <tr>
+                    <td>System Installation & Maintenance</td>
+                    <td>Flutter</td>
+                    <td>UI/UX</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <body>
+        <hr style="height:2px;border-width:20%;color:black;background-color:black">
+        <h1>
+            Little bit of Myself
+        </h1>
+        <style>
+            .intro {
+                column-count: 3;
+                column-gap: 40px;
+                column-rule-style: solid;
+            }
+        </style>
+        <div class="intro">
+            Motivated with 3 Years of Area of expertise. Recognized for assesing operational needs and developing
+            solutions to save costs, improve revenues, and drive customer satisfaction.
+            <p>Resourceful and well-organizaed ith excellent leadership and team building record. Seeking to benefit an
+                IT Department with strong leadership and team building record.</p>
+            <p>Customer-oriented with strong history of leading high-performance teams to meet or exceed objectives.
+                Dedicated and hardworking with internal drive to deliver.</p>
+        </div>
+    </body>
+
+    <!-- Contact Information -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact"></div>
+    <h2 class="w3-text-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <ul class="w3-ul w3-border">
+        <div class="w3-section">
+            <p>
+                <li><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Melacca, Malaysia</li>
+            </p>
+            <p>
+                <li><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +601 6762111</li>
+            </p>
+            <p>
+                <li><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: jcleong24@gmail.com
+                </li>
+            </p>
+        </div><br>
+        <p>Let's get in touch. Send me a message:</p>
+
+        <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+                <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </p>
+        </form>
+        <!-- End Contact Section -->
+        </div>
+    </ul>
+
+    <style>
+        .resume {
+            column-count: 3;
+            column-gap: 40px;
+            column-rule-style: solid;
+        }
+    </style>
+</body>
+
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>    
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>   
+    <p class="w3-medium">Powered by <a href="https://code.visualstudio.com/" target="_blank"
+            class="w3-hover-text-green">Visual Studio Code</a></p>
+    <!-- End footer -->
+</footer>
+<script>
+    function sideMenu() {
+        var x = document.getElementById("idsidebar");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+
+</html>
